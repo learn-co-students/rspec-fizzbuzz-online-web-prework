@@ -5,12 +5,23 @@
 
 
 def fizzbuzz(int)
-  if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
-  elsif int % 5 == 0 
-    "Buzz"
-  elsif int % 5 == 0 
-    nil
-  end
-end
+  if int % 3 == 0 
+    if int % 5 == 0
+     "FizzBuzz" # Go fizz
+  
  
+ if 
+ 
+ if (i%3 == 0) {              // multiple of 3
+    if (i%5 == 0) {          // multiple of 3 and 5
+        puts "FizzBuzz"
+    } else {                 // not multiple of 5, only of 3
+        puts "Buzz"
+    }
+} else (                     // not multiple of 3
+    if (i%5 == 0) {          // multiple of 5, not of 3
+        puts "Fizz"
+    } else {                 // multiple of neither 5 nor 3
+        puts i
+    }
+}
