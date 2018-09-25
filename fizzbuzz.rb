@@ -11,7 +11,7 @@ def fizzbuzz(int)
   elsif
      "Buzz"
   elsif
-    if(int % 5 == 0) 
+    elsif(int % 5 == 0) 
       "Fizz"
     else
       NIL
