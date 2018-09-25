@@ -9,8 +9,8 @@ def fizzbuzz(int)
      "Fizz" 
   end
    if int % 3 == 0 
-   if int % 5 == 0 
+    if int % 5 == 0 
      "Fizwlz" 
   end
+  end
 end
-  
