@@ -14,6 +14,5 @@ def fizzbuzz(int)
     "Buzz"
   elsif int % 5 == 0 
     nil
-  end
 end
  
