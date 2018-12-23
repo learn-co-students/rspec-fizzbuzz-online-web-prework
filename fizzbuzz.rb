@@ -6,13 +6,14 @@
 def fizzbuzz(int)
 
   if int % 3 == 0
-    int = "Fizz"
+    if int % 5 == 0
+    int = "FizzBuzz"
+
+  elsif int % 3 == 0
+     int = "Fizz"
 
   elsif int % 5 == 0
-     int = "Buzz"
-
-  elsif int % (3,5) == 0
-    int = "FizzBuzz"
+    int = "Buzz"
 
   else
     puts "not divisible by 3 or 5"
