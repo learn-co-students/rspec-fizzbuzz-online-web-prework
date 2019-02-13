@@ -12,7 +12,6 @@ puts "Fizz"
 
 else int
   return nill
-
 end
 
 end
