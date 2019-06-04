@@ -1,10 +1,9 @@
 require_relative './spec_helper.rb'
 require_relative '../fizzbuzz.rb'
 
-def
-"fizzbuzz" do
-  it 'returns "Fizz" when the number is divisible by 3' do
-     fizz_3 = fizzbuzz(3)
+def fizzbuzz 
+  puts "Fizz"
+     fizz_3 = fizzbuzz(3 & 5)
 
     expect(fizz_3).to eq("Fizz")
   end
@@ -24,6 +23,7 @@ def
     expect(fizz_4).to eq(nil)
   end
 end
+
 def fizzbuzz(int)
  if  int % 3 == 0 && int % 5 == 0
  return "FizzBuzz"

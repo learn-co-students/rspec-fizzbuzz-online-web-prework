@@ -1,4 +1,4 @@
-def "fizzbuzz" do
+def "fizzbuzz" 
   it 'returns "Fizz" when the number is divisible by 3' do
      fizz_3 = fizzbuzz(3)
 
@@ -34,5 +34,5 @@ end
 if int % 3 == 0
   return "Fizz"
 end
-
+end
   
