@@ -1,2 +1,13 @@
-# Don't forget! This file needs to be 'required' in its spec file
-# See README.md for instructions on how to do this
+def fizzbuzz (n)
+nThree = (n % 3 == 0)
+nFive = (n % 5 == 0)
+if nThree && nFive
+return "FizzBuzz"
+elsif nThree
+return "Fizz"
+elsif nFive
+return "Buzz"
+else
+puts n
+end
+end
