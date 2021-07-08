@@ -65,13 +65,7 @@ RSpec is what's known as a DSL, or Domain Specific Language (also called a "Task
 Here is an example of an RSpec test for one of the expectations above:
 
 ```ruby
-describe "fizzbuzz" do
-  it 'returns "Fizz" when the number is divisible by 3' do
-    fizz_3 = fizzbuzz(3)
-
-    expect(fizz_3).to eq("Fizz")
-  end
-end
+c
 ```
 
 Sure, that code looks crazy and it's actually quite advanced, but we don't need to think about all of it, we just need to focus on 5 words: `describe`, `it`, `expect`, `to`, and `eq`. Let's break down that example.
